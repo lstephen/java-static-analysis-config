@@ -5,7 +5,7 @@
 
 <module name="Checker">
   <property name="charset" value="UTF-8"/>
-  <property name="severity" value="warning"/>
+  <property name="severity" value="error"/>
   <property name="fileExtensions" value="java, properties, xml"/>
 
   <module name="JavadocPackage"/>
@@ -21,6 +21,10 @@
   </module>
 
   <module name="TreeWalker">
+    <module name="LineLength">
+      <property name="max" value="100"/>
+    </module>
+
     <module name="JavadocMethod"/>
     <module name="JavadocType"/>
     <module name="JavadocVariable"/>
@@ -41,10 +45,7 @@
 
     <module name="AvoidStarImport"/>
     <module name="IllegalImport"/>
-    <module name="RedundantImport"/>
-    <module name="UnusedImports"/>
 
-    <module name="LineLength"/>
     <module name="MethodLength"/>
     <module name="ParameterNumber"/>
 
@@ -87,7 +88,6 @@
     <module name="VisibilityModifier"/>
 
     <module name="ArrayTypeStyle"/>
-    <module name="FinalParameters"/>
     <module name="TodoComment"/>
     <module name="UpperEll"/>
 
