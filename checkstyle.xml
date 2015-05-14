@@ -37,6 +37,10 @@
       <property name="scope" value="protected"/>
     </module>
 
+    <module name="Indentation">
+       <property name="basicOffset" value="2" />
+     </module>
+
     <module name="JavadocStyle"/>
     <module name="AtclauseOrder"/>
     <module name="JavadocTagContinuationIndentation"/>
