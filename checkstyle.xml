@@ -39,7 +39,7 @@
 
     <module name="Indentation">
        <property name="basicOffset" value="2"/>
-       <proeprty name="caseIndent" value="2"/>
+       <property name="caseIndent" value="2"/>
        <property name="lineWrappingIndentation" value="2"/>
      </module>
 
