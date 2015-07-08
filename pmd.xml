@@ -11,6 +11,7 @@
 
   <rule ref="rulesets/java/controversial.xml">
     <exclude name="AvoidPrefixingMethodParameters"/>
+    <exclude name="OnlyOneReturn"/>
   </rule>
 
   <rule ref="rulesets/java/design.xml"/>
